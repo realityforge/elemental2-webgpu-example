@@ -1,8 +1,13 @@
 # Elemental2 + Akasha WebGPU + J2CL
 
-An experiment to combine Elemental2 + Akasha WebGPU in J2CL application. Build via:
+An experiment to combine Elemental2 + Akasha WebGPU in J2CL application. First you install the libraries
+in the `repositories/` into your local maven repository and then run build via
 
         $ ./mvnw clean package
+
+This will produce a war at `target/elemental2-webgpu-example-1.0.0-SNAPSHOT.war` or an exploded application at
+`target/elemental2-webgpu-example-1.0.0-SNAPSHOT` that can be exposed via http server somehow. Next you need to open
+Chrome Canary, enable WebGPU experimental feature and visit the site and a triangle rendered by WebGPU will be present.
 
 Instructions on how this was built so can recreate this in the future:
 
