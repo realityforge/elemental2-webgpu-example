@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.realityforge.akasha</groupId>
+  <artifactId>akasha-webgpu-j2cl</artifactId>
+  <version>0.18</version>
+  <packaging>jar</packaging>
+  <name>Akasha Java Browser WebGPU API for J2CL compatible with Elemental2</name>
+  <description>Akasha Java Browser WebGPU API for J2CL compatible with Elemental2</description>
+  <url>https://github.com/akasha/akasha</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <scm>
+    <connection>scm:git:git@github.com:akasha/akasha.git</connection>
+    <developerConnection>scm:git:git@github.com:akasha/akasha.git</developerConnection>
+    <url>git@github.com:akasha/akasha.git</url>
+  </scm>
+  <issueManagement>
+    <url>https://github.com/akasha/akasha/issues</url>
+    <system>GitHub Issues</system>
+  </issueManagement>
+  <developers>
+    <developer>
+      <id>realityforge</id>
+      <name>Peter Donald</name>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>org.realityforge.javax.annotation</groupId>
+      <artifactId>javax.annotation</artifactId>
+      <version>1.0.1</version>
+    </dependency>
+    <dependency>
+      <groupId>org.realityforge.org.jetbrains.annotations</groupId>
+      <artifactId>org.jetbrains.annotations</artifactId>
+      <version>1.7.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.google.jsinterop</groupId>
+      <artifactId>jsinterop-annotations</artifactId>
+      <version>2.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.realityforge.javaemul.internal.annotations</groupId>
+      <artifactId>javaemul.internal.annotations</artifactId>
+      <version>0.01</version>
+    </dependency>
+    <dependency>
+      <groupId>com.google.jsinterop</groupId>
+      <artifactId>base</artifactId>
+      <version>1.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.google.elemental2</groupId>
+      <artifactId>elemental2-promise</artifactId>
+      <version>1.1.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.google.elemental2</groupId>
+      <artifactId>elemental2-core</artifactId>
+      <version>1.1.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.google.elemental2</groupId>
+      <artifactId>elemental2-dom</artifactId>
+      <version>1.1.0</version>
+    </dependency>
+  </dependencies>
+</project>
