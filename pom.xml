@@ -92,14 +92,6 @@
       <artifactId>base</artifactId>
       <version>1.0.0-SNAPSHOT</version>
     </dependency>
-
-    <!--
-        <dependency>
-          <groupId>org.realityforge.javax.annotation</groupId>
-          <artifactId>javax.annotation</artifactId>
-          <version>1.0.1</version>
-        </dependency>
-    -->
   </dependencies>
 
   <build>
@@ -131,9 +123,6 @@
           <classpathScope>compile</classpathScope>
           <initialScriptFilename>elemental2-webgpu-example/elemental2-webgpu-example.js</initialScriptFilename>
           <compilationLevel>ADVANCED</compilationLevel>
-<!--          <externs>-->
-<!--            <extern>repository/org/realityforge/akasha/0.18/akasha-webgpu-j2cl-0.18-externs.js</extern>-->
-<!--          </externs>-->
           <defines>
             <jre.checkedMode>DISABLED</jre.checkedMode>
             <jre.checks.checkLevel>MINIMAL</jre.checks.checkLevel>
